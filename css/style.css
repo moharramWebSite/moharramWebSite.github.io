@@ -816,6 +816,9 @@ app marcup (after 920px)
     -webkit-transition: 0.4s ease-in-out;
     transition: 0.4s ease-in-out;
   }
+  .art-app .art-app-wrapper .art-app-container .art-info-bar .art-info-bar-frame .art-scroll-frame .scroll-content {
+    padding: 265px 0 50px;
+  }
   .art-app .art-app-wrapper .art-app-container .art-info-bar.art-active .art-info-bar-frame .art-info-bar-btn {
     -webkit-transform: translateX(0);
             transform: translateX(0);
