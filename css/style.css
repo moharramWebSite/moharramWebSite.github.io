@@ -771,7 +771,7 @@ app marcup (after 920px)
 
   /* ----- scroll frame ----- */
   .art-scroll-frame {
-    height: 95vh;
+    height: 100vh;
   }
 
   .art-app {
@@ -799,7 +799,7 @@ app marcup (after 920px)
     width: 290px;
     /* height: calc(100vh - 30px); */
     /* maybe solved from here */
-    height: 95vh;
+    height: 100vh;
   }
   .art-app .art-app-wrapper .art-app-container .art-info-bar.art-active {
     -webkit-transform: translateX(290px);
