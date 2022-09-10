@@ -799,9 +799,9 @@ app marcup (after 920px)
     position: absolute;
     left: -290px;
     width: 290px;
-    height: calc(100vh - 30px);
+    /* height: calc(100vh - 30px); */
     /* maybe solved from here */
-    /* height: 100vh; */
+    height: 100vh;
   }
   .art-app .art-app-wrapper .art-app-container .art-info-bar.art-active {
     -webkit-transform: translateX(290px);
