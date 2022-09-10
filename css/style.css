@@ -578,8 +578,10 @@ app marcup
   padding: 15px;
   background: #191923;
   width: 100vw;
-  height: 100%;
-  position: relative;
+  /* height: 100%; */
+  height: 100vh;
+  /* position: relative; */
+  position: absolute;
   overflow: hidden;
   /* ----- mobile top bar ----- */
 }
