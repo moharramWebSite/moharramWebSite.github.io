@@ -619,6 +619,7 @@ app marcup
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  height: calc(100vh - 30px);
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
   /* ----- info bar ----- */
@@ -629,7 +630,7 @@ app marcup
   background: #20202a;
   width: 290px;
   min-width: 290px;
-  height: calc(100vh - 30px);
+  /* height: calc(100vh - 30px); */
   /* height: 100vh; */
   position: relative;
   z-index: 999;
@@ -638,6 +639,7 @@ app marcup
   -webkit-transition: 0.55s ease-in-out;
   transition: 0.55s ease-in-out;
 }
+
 .art-app .art-app-wrapper .art-app-container .art-info-bar .art-info-bar-frame {
   padding: 0 15px;
 }
