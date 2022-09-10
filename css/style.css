@@ -629,7 +629,7 @@ app marcup
   background: #20202a;
   width: 290px;
   min-width: 290px;
-  height: calc(97vh - 30px);
+  height: calc(100vh - 30px);
   /* height: 100vh; */
   position: relative;
   z-index: 999;
@@ -826,7 +826,8 @@ app marcup (after 920px)
     padding-top: 70px;
   }
   .art-app .art-app-wrapper .art-app-container .art-content .art-scroll-frame {
-    height: calc(100vh - 70px);
+    height: calc(100vh - 120px);
+    /* from here the fucking shit */
   }
   .art-app .art-app-wrapper .art-app-container .art-content.art-active {
     -webkit-transform: none;
@@ -856,6 +857,18 @@ app marcup (after 920px)
     -webkit-transform: translateX(0);
             transform: translateX(0);
   }
+}
+
+/* ------------------------------
+
+app marcup (after 480px)
+
+------------------------------ */
+
+@media (max-width: 480px) {
+
+
+
 }
 /* ------------------------------
 
