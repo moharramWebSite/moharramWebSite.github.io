@@ -629,7 +629,7 @@ app marcup
   background: #20202a;
   width: 290px;
   min-width: 290px;
-  height: calc(100vh - 30px);
+  height: calc(97vh - 30px);
   /* height: 100vh; */
   position: relative;
   z-index: 999;
