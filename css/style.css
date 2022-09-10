@@ -100,6 +100,7 @@ body {
   font-family: "Poppins", sans-serif;
   font-weight: 300;
   letter-spacing: 0.5px;
+  position: absolute;
   font-smooth: subpixel-antialiased;
 }
 
@@ -1194,6 +1195,7 @@ info bar
       -ms-flex-direction: column;
           flex-direction: column;
 }
+
 .art-info-bar .art-ls-social {
   display: -webkit-box;
   display: -ms-flexbox;
