@@ -1,11 +1,6 @@
 /* -------------------------------------------
 
-Name: 		Arter
-Version:  1.0
-Author:		Nazar Miller (millerDigitalDesign)
-Portfolio:  https://themeforest.net/user/millerdigitaldesign/portfolio?ref=MillerDigitalDesign
 
-p.s. I am available for Freelance hire (UI design, web development). mail: miller.themes@gmail.com
 
 ------------------------------------------- */
 /*--------------------------------------------
@@ -578,10 +573,8 @@ app marcup
   padding: 15px;
   background: #191923;
   width: 100vw;
-  /* height: 100%; */
-  height: 100vh;
-  /* position: relative; */
-  position: absolute;
+  height: 100%;
+  position: relative;
   overflow: hidden;
   /* ----- mobile top bar ----- */
 }
@@ -622,8 +615,7 @@ app marcup
           box-shadow: 0 3px 8px 0 rgba(15, 15, 20, 0.2);
 }
 .art-app .art-app-wrapper .art-app-container {
-  /* position: relative; */
-  position: absolute;
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
