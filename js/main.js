@@ -226,7 +226,7 @@ $(function() {
 
   bar.animate(.75);
 
-  var bar = new ProgressBar.Line(lineprog4, {
+  var bar = new ProgressBar.Line(lineprogPHP, {
     strokeWidth: 1.72,
     easing: 'easeInOut',
     duration: 1400,
@@ -242,6 +242,23 @@ $(function() {
   });
 
   bar.animate(.85);
+  //......................... Flutter Skill .........................
+  var bar = new ProgressBar.Line(lineprogFlutter, {
+    strokeWidth: 1.72,
+    easing: 'easeInOut',
+    duration: 1400,
+    delay: 3100,
+    trailWidth: 1.72,
+    svgStyle: {
+      width: '100%',
+      height: '100%'
+    },
+    step: (state, bar) => {
+      bar.setText(Math.round(bar.value() * 100) + ' %');
+    }
+  });
+
+  bar.animate(.31);
 
   var bar = new ProgressBar.Line(lineprog_SQL, {
     strokeWidth: 1.72,
