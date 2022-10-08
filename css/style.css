@@ -538,6 +538,10 @@ app marcup
   margin-bottom: 15px;
   text-align: center;
 }
+.art-preloader .art-preloader-content h4 {
+  /* color: red; */
+  font-size: calc(1.275rem + .3vw);
+}
 .art-preloader .art-preloader-content .art-preloader-load {
   margin-top: 5px;
   width: 200px;
@@ -1112,6 +1116,9 @@ info bar
   color: #fafafc;
   -webkit-transition: 0.4s ease-in-out;
   transition: 0.4s ease-in-out;
+}
+.art-info-bar .art-name span{
+  color: #FFC107;
 }
 .art-info-bar .art-name a {
   color: #fafafc;
