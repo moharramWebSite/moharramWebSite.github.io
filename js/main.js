@@ -258,7 +258,7 @@ $(function() {
     }
   });
 
-  bar.animate(.31);
+  bar.animate(.50);
 
   var bar = new ProgressBar.Line(lineprog_SQL, {
     strokeWidth: 1.72,
