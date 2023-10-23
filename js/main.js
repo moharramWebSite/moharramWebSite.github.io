@@ -258,7 +258,7 @@ $(function() {
     }
   });
 
-  bar.animate(.70);
+  bar.animate(.90);
 
   var bar = new ProgressBar.Line(lineprog_SQL, {
     strokeWidth: 1.72,
@@ -327,7 +327,7 @@ $(function() {
     }
   });
 
-  bar.animate(.80);
+  bar.animate(.95);
 
   var bar = new ProgressBar.Line(lineprog8, {
     strokeWidth: 1.72,
